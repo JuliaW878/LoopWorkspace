@@ -29,7 +29,6 @@ jobs:
         with:
           submodules: recursive
 
-
       # Customize Loop: Download and apply patches
       - name: Customize Loop
         run: | 
@@ -41,7 +40,6 @@ jobs:
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           omnipod_cage \
           now_line \
-          customtypeone_looppatches \
           2002 \
           algorithm_experiments \
           testflight_expiration_warning
